@@ -1,31 +1,46 @@
 *{ 
-    margin: 0;
-    padding: 0;
+    margin: 5px auto 5px auto ;
+    padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     
     
+    
 }
   
-fieldset{
+body{
+    background-image: linear-gradient(to right, #6B3AE5,#B6CAF2,#D0F2F2);
+}
+
+.container{
+
     margin: 20px 450px 0px 450px ;
     border-radius: 10px;
-    border: none;
+    border-radius: 10px;
     background-image: linear-gradient(to right, #6B3AE5,#B6CAF2,#D0F2F2);
     
 }
 
-legend{
-    font-size: 45px;
+h1{
     
+    margin-top:30px;
+    font-size: 45px;
+    background: -webkit-linear-gradient( black,blue );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-weight: 100;
+    margin: 0px 100px ;
 
 }
 
 .paragraph1{
 
     margin-top: 10px;
+    background: -webkit-linear-gradient( black,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
 }
 
 input{
