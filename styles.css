@@ -43,7 +43,7 @@ h1{
     -webkit-text-fill-color:transparent;
 }
 
-input{
+.first-input{
     width: 321px;
     height: 46px;
     box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.09);
@@ -54,6 +54,39 @@ input{
     display: block;
 }
 
+.second-input{
+    width: 321px;
+    height: 46px;
+    box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.09);
+    background: #F7F7F7;
+    border-radius: 10px;
+    border: none;  
+    margin:0px auto;
+    display: block;
+}
+
+#email{
+    width: 321px;
+    height: 46px;
+    box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.09);
+    background: #F7F7F7;
+    border-radius: 10px;
+    border: none;  
+    margin:0px auto;
+    display: block;
+}
+
+
+.four-input{
+    width: 321px;
+    height: 46px;
+    box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.09);
+    background: #F7F7F7;
+    border-radius: 10px;
+    border: none;  
+    margin:0px auto;
+    display: block;
+}
 
 
 .paragraph2{
@@ -86,3 +119,20 @@ button{
     margin: 0px 0px 20px;
 }
 
+
+
+.date{
+    width: 221px;
+    height: 46px;
+    box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.09);
+    background: #F7F7F7;
+    border-radius: 10px;
+    border: none;  
+    margin:0px auto;
+    display: block;
+    padding-left: 35px ;
+    
+
+
+
+}

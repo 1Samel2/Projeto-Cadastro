@@ -18,6 +18,8 @@
 
     <div class="container">
 
+   
+
         <h1>Cadastre-se</h1>
         
 
@@ -25,27 +27,27 @@
 
 
         <div>
-            <input type="name" id="Nome" placeholder="Nome" required>
+            <input class="first-input" type="name" name="Primeiro nome" placeholder="Nome" required>
             <br>
-            <input type="name" id="Sobrenome" placeholder="Sobrenome" required>
+            <input class="second-input" type="name" name="Sobrenome" placeholder="Sobrenome" required>
             <br>
-            <input type="email" id="email" placeholder="Email" required>
+            <input  type="email" name="email" id="email" placeholder="Email" required>
             <br>
-            <input type="password" id="Nova senha" placeholder="Nova senha" required>
+            <input class="four-input" type="password"  placeholder="Nova senha" required>
         </div>
         <br>
         <div>
             <label>Data de nascimento:</label>
             <br>
-            <input type="date" name="data-nascimento" required pattern="\d{4}-\d{2}-\d{2}">
+            <input class="date" type="date" name="data-nascimento" required pattern="\d{4}-\d{2}-\d{2}">
         </div>
         <br>
         <br>
-        
+
     <div>
-        <details><summary>Gênero</summary><input type="radio" class="men" name="sex" value="1" id="sex1">
-         <input type="radio" class="woman" name="sex" value="2" id="sex2">
-         <input type="radio" class="transgender " name="sex" value="3" id="sex3"></details>
+        <details><summary>Gênero</summary><input type="radio" class="men" name="sex" value="1" id="sex1"> Masculino
+         <input type="radio" class="woman" name="sex" value="2" id="sex2"> Feminino
+         <input type="radio" class="transgender " name="sex" value="3" id="sex3">Transgênero</details>
 
     </div>
 
@@ -57,10 +59,11 @@
             poderá receber notificações por SMS e cancelar isso quando quiser.</p>
         <br>
         <div>
-            <button type="submit" id="cadrasto">Cadastre-se</button>
+            <button type="submit" id="submit" >Cadastre-se</button>
         </div>
+    
     </div>
-
+    
 </html>
 
 
