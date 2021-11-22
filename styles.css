@@ -1,5 +1,5 @@
 *{ 
-    margin: 5px auto 5px auto ;
+    margin: 3px auto 3px auto ;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
@@ -133,6 +133,18 @@ button{
     padding-left: 35px ;
     
 
+}
 
+.game{
+    position: absolute;
+    right: 35px;
+    top: 150px;
+    
+    
+}
 
+.link-start{
+    position: absolute;
+    left:35px;
+    top: 150px;
 }
