@@ -1,110 +1,109 @@
-*{ 
-    margin: 3px auto 3px auto ;
+* {
+    margin: 3px auto 3px auto;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
-    
-    
-    
-}
-  
-body{
-    background-image: linear-gradient(to right, #6B3AE5,#B6CAF2,#D0F2F2);
+
+
+
 }
 
-.container{
+body {
+    background-image: linear-gradient(to right, #6B3AE5, #B6CAF2, #D0F2F2);
+}
 
-    margin: 20px 450px 0px 450px ;
+.container {
+
+    margin: 20px 450px 0px 450px;
     border-radius: 10px;
     border-radius: 10px;
-    background-image: linear-gradient(to right, #6B3AE5,#B6CAF2,#D0F2F2);
-    
+    background-image: linear-gradient(to right, #6B3AE5, #B6CAF2, #D0F2F2);
+
 }
 
-h1{
-    
-    margin-top:30px;
+h1 {
+    margin-top: 30px;
     font-size: 45px;
-    background: -webkit-linear-gradient( black,blue );
+    background: -webkit-linear-gradient(black, blue);
     -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent;
+    -webkit-text-fill-color: transparent;
     font-weight: 100;
-    margin: 0px 100px ;
+    margin: 0px 100px;
 
 }
 
-.paragraph1{
+.paragraph1 {
 
     margin-top: 10px;
-    background: -webkit-linear-gradient( black,blue);
+    background: -webkit-linear-gradient(black, blue);
     -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent;
+    -webkit-text-fill-color: transparent;
 }
 
-.first-input{
+.first-input {
     width: 321px;
     height: 46px;
     box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.09);
     background: #F7F7F7;
     border-radius: 10px;
-    border: none;  
-    margin:0px auto;
+    border: none;
+    margin: 0px auto;
     display: block;
 }
 
-.second-input{
+.second-input {
     width: 321px;
     height: 46px;
     box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.09);
     background: #F7F7F7;
     border-radius: 10px;
-    border: none;  
-    margin:0px auto;
+    border: none;
+    margin: 0px auto;
     display: block;
 }
 
-#email{
+#email {
     width: 321px;
     height: 46px;
     box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.09);
     background: #F7F7F7;
     border-radius: 10px;
-    border: none;  
-    margin:0px auto;
+    border: none;
+    margin: 0px auto;
     display: block;
 }
 
 
-.four-input{
+.four-input {
     width: 321px;
     height: 46px;
     box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.09);
     background: #F7F7F7;
     border-radius: 10px;
-    border: none;  
-    margin:0px auto;
+    border: none;
+    margin: 0px auto;
     display: block;
 }
 
 
-.paragraph2{
-    color:black;
+.paragraph2 {
+    color: black;
     font-size: 11px;
-    
+
 
 }
 
-a{
+a {
     text-decoration: none;
-    color:#6B3A2A;
+    color: #6B3A2A;
 
 }
 
-button{
-   
-    
+button {
+
+
     background: #323232;
     box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.09);
     border-radius: 10px;
@@ -121,30 +120,31 @@ button{
 
 
 
-.date{
+.date {
     width: 221px;
     height: 46px;
     box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.09);
     background: #F7F7F7;
     border-radius: 10px;
-    border: none;  
-    margin:0px auto;
+    border: none;
+    margin: 0px auto;
     display: block;
-    padding-left: 35px ;
-    
+    padding-left: 35px;
+
 
 }
 
-.game{
+.game {
     position: absolute;
     right: 35px;
     top: 150px;
-    
-    
+
+
 }
 
-.link-start{
-    position: absolute;
-    left:35px;
-    top: 150px;
+
+.link-start {
+position: absolute;
+left:35px;
+top: 150px;
 }
